@@ -15,7 +15,7 @@ module.exports = (filters) => new Promise((resolve, reject) => {
     if (err || response.statusCode >= 400) {
       return resolve([])
     }
-
+    console.log(response.body)
     return resolve(response.body)
   })
 })

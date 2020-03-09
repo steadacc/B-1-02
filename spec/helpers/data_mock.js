@@ -40,27 +40,27 @@ const todos_user_id_1 = [
 
 const todos_user_id_2 = [
   {
-    "userId": 1,
+    "userId": 2,
     "id": 22,
   },
   {
-    "userId": 1,
+    "userId": 2,
     "id": 23,
   },
   {
-    "userId": 1,
+    "userId": 2,
     "id": 24,
   },
   {
-    "userId": 1,
+    "userId": 2,
     "id": 25,
   },
   {
-    "userId": 1,
+    "userId": 2,
     "id": 26,
   },
   {
-    "userId": 1,
+    "userId": 2,
     "id": 27,
   }
 ]
@@ -150,7 +150,6 @@ const posts_user_id_2 = [
 ]
 
 const comments_post_id_1 = [
-  [
     {
       "postId": 1,
       "id": 1,
@@ -175,11 +174,9 @@ const comments_post_id_1 = [
       "postId": 1,
       "id": 6,
     }
-  ]
 ]
 
 const comments_post_id_2 = [
-  [
     {
       "postId": 2,
       "id": 7,
@@ -204,7 +201,6 @@ const comments_post_id_2 = [
       "postId": 2,
       "id": 12,
     }
-  ]
 ]
 
 module.exports = {

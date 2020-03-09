@@ -26,7 +26,7 @@ mock('../../src/microservices/user', (id) => {
   if (id == 1) {
     return Promise.resolve(user_id_1)
   }
-  if (id === 2) {
+  if (id == 2) {
     return Promise.resolve(user_id_2)
   }
   return Promise.reject({status: 404, message: 'not Found'})
@@ -36,7 +36,7 @@ mock('../../src/microservices/todos', (qs) => {
   if (qs.userId == 1) {
     return Promise.resolve(todos_user_id_1)
   }
-  if (qs.user_id == 2) {
+  if (qs.userId == 2) {
     return Promise.resolve(todos_user_id_2)
   }
 
@@ -47,7 +47,7 @@ mock('../../src/microservices/posts', (qs) => {
   if (qs.userId == 1) {
     return Promise.resolve(posts_user_id_1)
   }
-  if (qs.user_id == 2) {
+  if (qs.userId == 2) {
     return Promise.resolve(posts_user_id_2)
   }
 
