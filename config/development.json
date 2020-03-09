@@ -1,0 +1,13 @@
+{
+  "endpoints": {
+    "json_placeholder": "https://jsonplaceholder.typicode.com/"
+  },
+  "log": {
+    "name": "app",
+    "base": {
+      "env": "dev"
+    },
+    "enabled": true,
+    "level": 20
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "endpoints": {
+    "json_placeholder": "ENDPOINT_JSON_PLACEHOLDER"
+  },
+  "log": {
+    "name": "SERVICE_NAME",
+    "base": {
+      "region": "AWS_REGION",
+      "env": "NODE_ENV"
+    }
+  }
+}

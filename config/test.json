@@ -1,0 +1,13 @@
+{
+  "endpoints": {
+    "json_placeholder": ""
+  },
+  "log": {
+    "name": "app",
+    "base": {
+      "env": "test"
+    },
+    "enabled": false,
+    "level": 30
+  }
+}
